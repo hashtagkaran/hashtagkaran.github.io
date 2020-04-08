@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#introHome {
+	width: 100%;
+	height: 115vh;
+	background-attachment: fixed;
+	color: #fff;
+	background-image: url(../img/introHome.jpg);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	clip-path: polygon(0 0, 100% 0, 100% 93%, 0% 100%);
+}
+
+#introHome h1 {
+	font-family: "Roboto", sans-serif;
+	font-size: 70px;
+	font-weight: bold;
+}
+
+#introHome h1 span {
+	color: aquamarine;
+}
+#introHome h2 {
+	font-size: 35px;
+}
+#introHome h2 span {
+	font-size: 15px;
+	color: #999;
+}
+.introHomeLeft {
+	padding: 40px;
+}
+
+.introHomeRight {
+	margin-top: 100px;
+}
+
+#aboutHome {
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+#aboutHome h1 {
+	font-size: 55px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#aboutHome h1 span {
+	font-weight: bold;
+	font-size: 60px;
+}
+#aboutHome p {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	color: #e74c3c;
+}
+#social {
+	background: url(img/social.jpg);
+	background: #111;
+	background-size: cover;
+	/* background-attachment: fixed; */
+	width: 100%;
+	height: 80vh;
+	/* padding: 200px; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	color: #fff;
+}
+
+#social h3 {
+	font-weight: 200;
+	color: #3498db;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+#social p {
+	font-size: 45px;
+}
+
+#social p span {
+	color: #3498db;
+	font-size: 30px;
+}
+
+#social ul li {
+	display: inline-block;
+	padding: 5px;
+	font-size: 30px;
+}
+
+#social ul li a {
+	padding: 10px;
+	color: #888;
+}
+
+.scrollToTop {
+	float: right;
+}
+
+.scrollToTop button {
+	padding: 15px 15px;
+	text-transform: uppercase;
+	background: none;
+	color: #fff;
+	border: 0.5px solid #fff;
+	border-radius: 5px;
+}
+
+.scrollToTop button::after {
+	content: "\2191";
+	font-size: 20px;
+}
