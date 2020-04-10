@@ -68,6 +68,18 @@
 		font-size: 25px;
 		padding: 2px;
 	}
+	#skillHome ul li ul li {
+		font-size: 15px;
+		padding: 10px 12px;
+		margin: 1px;
+	}
+	#skillHome .container {
+		padding: 60px;
+	}
+
+	#whatiDoHome {
+		padding: 50px;
+	}
 }
 
 @media only screen and (max-width: 768px) {
@@ -99,5 +111,17 @@
 	#social ul li {
 		font-size: 25px;
 		padding: 2px;
+	}
+	#skillHome ul li ul li {
+		font-size: 15px;
+		padding: 10px 12px;
+		margin: 1px;
+	}
+	#skillHome .container {
+		padding: 60px;
+	}
+
+	#whatiDoHome {
+		padding: 50px;
 	}
 }

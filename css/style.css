@@ -18,7 +18,8 @@
 }
 
 #introHome h1 {
-	font-family: "Roboto", sans-serif;
+	/* font-family: "Roboto", sans-serif; */
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 70px;
 	font-weight: bold;
 }
@@ -60,12 +61,107 @@
 }
 #aboutHome p {
 	text-transform: uppercase;
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: bold;
 	color: #e74c3c;
 }
+
+#skillHome {
+	background: #2f3542;
+	width: 100%;
+	height: 100vh;
+	clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
+}
+
+#skillHome .container {
+	padding: 120px;
+	color: #fff;
+}
+
+#skillHome h2 {
+	color: #2ecc71;
+	text-transform: uppercase;
+	font-size: 22px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+#skillHome ul li {
+	list-style: none;
+}
+
+#skillHome h3 {
+	font-size: 35px;
+	padding: 5px;
+	font-weight: 200;
+	margin-top: 15px;
+}
+
+#skillHome ul li ul li {
+	font-size: 22px;
+	padding: 10px 12px;
+	display: inline-block;
+	background-color: #212529;
+	border-radius: 10px;
+	margin: 1px;
+}
+
+#whatiDoHome {
+	padding: 100px;
+}
+
+#whatiDoHome h2 {
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #3297da;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+#whatiDoHome h3 {
+	padding: 15px 15px 10px 15px;
+	font-weight: 300;
+}
+
+#whatiDoHome p {
+	padding: 20px;
+}
+
+#whatiDoHome .cardBox {
+	/* padding: 10px; */
+	margin: 10px 0px;
+	/* background-color: #fff; */
+	background-color: #ecf0f1;
+	color: #2f3542;
+}
+
+#whatiDoHome .cardBox:hover {
+	color: #111;
+	background-color: #e2e2e2;
+	transition: 0.2s;
+}
+
+#whatiDoHome button {
+	font-size: 15px;
+	padding: 10px;
+	text-transform: uppercase;
+	margin: 10px;
+	background-color: #fff;
+	color: rgb(73, 73, 73);
+	border: 1px solid rgb(73, 73, 73);
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+}
+
+#whatiDoHome button:hover {
+	background-color: rgb(73, 73, 73);
+	color: rgb(226, 226, 226);
+	transition: 0.3s;
+}
+
 #social {
-	background: url(img/social.jpg);
 	background: #111;
 	background-size: cover;
 	/* background-attachment: fixed; */
