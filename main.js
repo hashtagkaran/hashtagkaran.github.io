@@ -10,5 +10,5 @@ function goToTop() {
 }
 
 function blogPage() {
-	window.location.href = "http://www.w3schools.com";
+window.location.replace("https://hashtagkaran.wordpress.com/");
 }
