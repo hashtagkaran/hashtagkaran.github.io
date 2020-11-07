@@ -4,7 +4,7 @@
 	}
 
 	#introHome h1 {
-		font-size: 60px;
+		font-size: 35px;
 	}
 	#aboutHome {
 		padding: 40px;
@@ -14,12 +14,12 @@
 		font-size: 25px;
 	}
 
-	#introHome span.hey{
+	#introHome h1 span.hey{
 		font-size: 25px;
 	}
 
 	
-	#introHome span.karan{
+	#introHome h1 span.karan{
 		font-size: 25px;
 	}
 
